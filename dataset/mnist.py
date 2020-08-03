@@ -1,4 +1,5 @@
 # coding: utf-8
+
 try:
     import urllib.request
 except ImportError:
@@ -9,6 +10,7 @@ import pickle
 import os
 import numpy as np
 
+os.chdir('/Users/felab1/Documents/GitHub/deep-learning-from-scratch/ch03/')
 
 url_base = 'http://yann.lecun.com/exdb/mnist/'
 key_file = {
